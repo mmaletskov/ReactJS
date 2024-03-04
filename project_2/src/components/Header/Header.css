@@ -1,0 +1,25 @@
+header{
+    width: 100%;
+    background-color: black;
+}
+.header__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu__list{
+    display: flex;
+    align-items: center;
+    gap: 20px;  
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+hr{
+    height: 50px;
+}
+.header__buttons{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}

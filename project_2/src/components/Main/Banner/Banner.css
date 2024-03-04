@@ -1,0 +1,25 @@
+.banner{
+    background:url('/public/images/banner/banner.png') no-repeat center;
+    width: 100%;
+    text-align: center;
+    padding: 150px 0;
+}
+.banner__inner-title{
+    margin-bottom: 30px;
+}
+.banner__inner-subtitle{
+    font-size: 32px;    
+    color: white;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.banner__inner-btn{
+    display: inline-block;
+    padding: 30px 40px;
+    border-radius: 20px;
+    background-color: #735184;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
