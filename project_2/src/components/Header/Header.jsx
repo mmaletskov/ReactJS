@@ -1,4 +1,5 @@
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 export default function (){
     return(
@@ -12,14 +13,14 @@ export default function (){
                     </div>
                         <hr />
                         <li className="menu__item">
-                            <a href="#" className="menu__link">главная</a>
+                            <Link to="/" className="menu__link">Главная</Link>
                         </li>
                         <li className="menu__item">
-                            <a href="#" className="menu__link">каталог</a>
+                            <Link to="/catalog" className="menu__link">Каталог</Link>
                         </li>
                         <hr />
                         <li className="menu__item">
-                            <a href="" className="menu__link">информация</a>
+                            <Link to="/info" className="menu__link">Информация</Link>
                         </li>
                     </ul>
                     <div className="header__buttons">

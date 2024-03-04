@@ -1,0 +1,20 @@
+.catalog__items {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 90px;
+}
+.catalog__item{
+    max-width: 385px;
+}
+.catalog__item-action{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.catalog__item-title{
+    font-size: 30px;
+    font-weight: 400;
+}
+.action__price{
+    font-size: 30px;
+}
