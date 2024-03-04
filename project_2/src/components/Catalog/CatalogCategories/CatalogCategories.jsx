@@ -1,5 +1,4 @@
 import './CatalogCategories.css'
-import { nameCateg } from '../../../../database'
 
 export default function CatalogCategories(){
     return(
