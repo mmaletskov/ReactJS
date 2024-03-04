@@ -9,7 +9,11 @@ export default function Catalog(){
             <div className="container">
                 <div className="catalog__inner">
                     <CatalogCategories />
-                    <CatalogItem/>
+                  <div className="catalog__list">
+                    <CatalogItem name="Футболка" price="2305"/>
+                    <CatalogItem name="Футболка2" price="5325"/>
+                    <CatalogItem name="Футболка3" price="795"/>
+                  </div>
                 </div>
             </div>
         </section>
