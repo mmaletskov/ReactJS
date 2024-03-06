@@ -16,5 +16,11 @@
     font-weight: 400;
 }
 .action__price{
-    font-size: 30px;
+    font-size: 28px;
+}
+.action__price-btn{
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    font-size: 22px;
 }

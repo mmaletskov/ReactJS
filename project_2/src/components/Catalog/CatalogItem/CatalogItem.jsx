@@ -1,15 +1,16 @@
 import './CatalogItem.css'
 import { catalog } from '../../../../database'
+import { Link } from 'react-router-dom'
 
-export default function CatalogItem(props){
+export default function CatalogItem({name,price,id}){
     return (
         <div className="catalog__item">
             <img src="/public/images/catalog/catalog.png" alt="" />
-            <h3 className="catalog__item-title">{ props.name }</h3>
+            <h3 className="catalog__item-title">{ name }</h3>
             <div className="catalog__item-action">
-                <p className="action__price">{ props.price } ₽</p>
-                <div className="action__price">
-                    <img src="/public/images/catalog/action.png" alt="" />
+                <p className="action__price">{ price } ₽</p>
+                <div className="action__price-btn">
+                    <Link to={`${id}`}>Подробнее</Link>
                 </div>
             </div>
         </div>

@@ -11,9 +11,9 @@ export default function Catalog(){
                 <div className="catalog__inner">
                     <CatalogCategories />
                   <div className="catalog__list">
-                        {catalog.map((card) =>{
+                        {catalog.map((card,index) =>{
                             return(
-                                <CatalogItem name={card.name} price={card.price}/>
+                                <CatalogItem key={index} {...card}/>
                             )
                         })}
                   </div>

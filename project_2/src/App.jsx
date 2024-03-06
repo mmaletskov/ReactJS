@@ -6,6 +6,7 @@ import Header from './components/Header/Header'
 import Banner from './components/Main/Banner/Banner'
 import Catalog from './components/Catalog/Catalog'
 import { Route, Routes } from 'react-router-dom'
+import CatalogItemPage from './components/Catalog/CatalogItemPage/CatalogItemPage'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Banner/>}/>
         <Route path="/catalog" element={<Catalog/>}/>
+        <Route path="/catalog/:id" element={<CatalogItemPage/>}/>
       </Routes>
     </>
   )
