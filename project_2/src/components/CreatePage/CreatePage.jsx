@@ -16,6 +16,8 @@ export default function CreatePage(){
         })
 
         event.target.reset()
+
+        setMessage('Форма отправлена')
        
     }
 
@@ -24,10 +26,11 @@ export default function CreatePage(){
         <>
             <h1>Создать новость</h1>
             <form action="" onSubmit={(createPost)}>
-                <input type="text" name="title" placeholder="Название" />
+                <input className="name" type="text" name="title" placeholder="Название" />
                 <textarea name="" id="" cols="30" rows="10" placeholder="Текст новости"></textarea>
-                <input type="submit" />
+                <input className="btn" type="submit" />
             </form>
+            <p className="text">{message}</p>
         </>
     )
 }

@@ -1,0 +1,31 @@
+form{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+input,input:focus,input:active{
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+
+}
+textarea{
+    padding: 20px 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(245, 241, 241);
+}
+.name{
+    padding: 20px 10px;
+    border: none;
+    background-color:  rgb(245, 241, 241);;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+}
+.text{
+    text-align: center;
+    padding: 20px 40px;
+}
