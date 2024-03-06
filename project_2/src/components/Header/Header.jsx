@@ -22,6 +22,12 @@ export default function (){
                         <li className="menu__item">
                             <Link to="/info" className="menu__link">Информация</Link>
                         </li>
+                        <li className="menu__item">
+                            <Link to="/users" className="menu__link">Пользователи</Link>
+                        </li>
+                        <li className="menu__item">
+                            <Link to="/create" className="menu__link">Добавить</Link>
+                        </li>
                     </ul>
                     <div className="header__buttons">
                         <img src="/public/images/header/search.svg" alt="" />
