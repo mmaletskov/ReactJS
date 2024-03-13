@@ -9,7 +9,7 @@ export default function Catalog(){
     const[searchQuery,setSearchQuery] = useState("");
 
     const searchProducts = catalog.filter(
-        (item) => item.name.toLowerCase().includes(searchQuery)
+        (item) => item.name.toLowerCase().includes(searchQuery),
     )
     
     return(

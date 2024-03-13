@@ -1,6 +1,8 @@
 import './CatalogItemPage.css'
 import { useParams } from "react-router-dom";
 import { catalog } from "../../../../database";
+import { Link } from 'react-router-dom';
+
 
 export default function CatalogItemPage(){
     const {id} = useParams();
@@ -12,6 +14,7 @@ export default function CatalogItemPage(){
             <div className="descr">
                 <h1>{product.name}</h1>
                 <p>{product.price} руб</p>
+              
             </div>
         </div>
     )

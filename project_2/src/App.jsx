@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 import UsersPage from './components/UsersPage/UsersPage'
 import CreatePage from './components/CreatePage/CreatePage'
 import CatalogItemPage from './components/Catalog/CatalogItemPage/CatalogItemPage'
+import Modal from './components/ModalWindow/ModalWindow'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/catalog/:id" element={<CatalogItemPage/>}/>
         <Route path="/users" element={<UsersPage/>}/>
         <Route path="/create" element={<CreatePage/>}/>
+        <Route path="/modal" element={<Modal/>}/>
       </Routes>
     </>
   )
